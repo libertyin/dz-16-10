@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'misoregular';
+    src: url('miso-webfont.woff2') format('woff2'),
+         url('miso-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misobold';
+    src: url('../fonts/miso-bold-webfont.woff2') format('woff2'),
+         url('../fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misolight';
+    src: url('../fonts/miso-light-webfont.woff2') format('woff2'),
+         url('../fonts/miso-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Lato', serif;
+}
+
+h3 {
+
+    font-size: 56px;
+    font-family: 'misolight';
+}
+
+.grid-container {
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.ba-container {
+
+margin-top: 100px;
+background-color: #fdde7e;
+
+}
+
+/* Flex items */
+
+.ba-row {
+
+height: 600px;
+padding: 0 20px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap: nowrap;
+justify-content: space-around;
+
+}
+
+.ba-item {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 30%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.ba-item--grown {
+    
+    
+height: 83.33%;
+    
+}
+
+/* End flex items */
+
+.ba-item span {
+    display: block;
+}
+
+.ba-item p {
+
+    font-weight: 300;
+    letter-spacing: 2.5;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.price {
+    
+    font-family: 'misobold';
+    color: #02995b;
+    font-size: 70px;
+}
